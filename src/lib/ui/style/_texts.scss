@@ -1,0 +1,33 @@
+.text-primary {
+    color: var(--text_primary);
+}
+
+.text-secondary {
+    color: var(--text_secondary);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.p {
+    font-size: $font_default;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: $font_lg;
+    font-weight: normal;
+    color: $primary;
+}
+
+h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-size: $font_default;
+    font-weight: normal;
+    color: $primary;
+}

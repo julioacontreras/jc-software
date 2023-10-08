@@ -1,0 +1,53 @@
+@import '../lib/ui/style/constants';
+
+.navbar {
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: $space_lg;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+    }
+}
+
+.link {
+    transition: all 200ms;
+}
+
+.active {
+    filter: blur(1px);
+}
+
+.link {
+    text-transform: uppercase;
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.page-home {
+    background-image: url(/assets/images/home.png);
+    background-repeat: no-repeat;
+}
+
+.page-services {
+    background-image: url(/assets/images/background.png);
+}
+
+.text-list-decoration-pill li {
+    list-style-type: none;
+    border-style: solid;
+    border-radius: $radius_lg;
+    border-color: var(--border-default);
+    padding: $space-sm $space-lg $space-sm $space-lg;
+}

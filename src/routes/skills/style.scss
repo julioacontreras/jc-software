@@ -1,0 +1,21 @@
+@import '../../lib/ui/style/constants';
+
+.list-skills {
+    color: var(--text_primary);
+    li {
+        filter: blur(1px);
+        &:hover {
+            filter: blur(0px);
+        }
+    }    
+}
+
+.grid-skills {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 768px) {
+    .grid-skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

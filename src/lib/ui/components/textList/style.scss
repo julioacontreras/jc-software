@@ -1,0 +1,49 @@
+@import '../../style/constants';
+
+.text-list {
+    display: flex;
+}
+
+.text-list-decoration-square {
+    list-style-type: square;
+}
+
+.text-list-decoration-none {
+    list-style-type: none;
+}
+
+.text-list-gap-none {
+    gap: none;
+}
+
+.text-list-gap-sm {
+    gap: $space_sm;
+}
+
+.text-list-gap-lg {
+    gap: $space_lg;
+}
+
+.text-list-gap-xl {
+    gap: $space_xl;
+}
+
+.text-list-distribution-balanced {
+    justify-content: space-around;
+}
+
+.text-list-distribution-start {
+    justify-content: start;
+}
+
+.text-list-distribution-end {
+    justify-content: end;
+}
+
+.text-list-direction-row {
+    flex-direction: row;
+}
+
+.text-list-direction-column {
+    flex-direction: column;
+}

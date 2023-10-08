@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Frontend",
+        "items": [
+            "SVELTE",
+            "VUE, VUE 3",
+            "REACT",
+            "SOLID JS",
+            "JAVASCRIPT",
+            "HTML",
+            "CSS",
+            "TYPESCRIPT"
+        ]
+    },
+    {
+        "title": "Backend",
+        "items": [
+            "DDD",
+            "MONGO DB",
+            "REDIS",
+            "QUEUE MESSAGES",
+            "MYSQL",
+            "POSTGRE SQL",
+            "PYTHON",
+            "GRAPH QL",
+            "SQL"
+        ]
+    },
+    {
+        "title": "General",
+        "items": [
+            "NODE JS",
+            "BUN",
+            "GIT"
+        ]
+    }
+
+]

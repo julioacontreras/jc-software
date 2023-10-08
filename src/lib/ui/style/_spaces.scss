@@ -1,0 +1,44 @@
+.space-xs {
+    height: $space_xs;
+}
+
+.space-sm {
+    height: $space_sm;
+}
+
+.space-lg {
+    height: $space_lg;
+}
+
+.space-xl {
+    height: $space_xl;
+}
+
+.space-xl-2 {
+    height: $space_xl-2;
+}
+
+.space-xl-3 {
+    height: $space_xl-3;
+}
+
+.space-xl-4 {
+    height: $space_xl-4;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    min-width: 400px;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.spacer {
+    width: 100%;
+}

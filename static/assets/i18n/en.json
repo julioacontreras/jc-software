@@ -1,0 +1,15 @@
+{
+    "loginView.title": "Login to your account",
+    "registerView.title": "Register",
+    "general.inputName.title": "Name",
+    "general.inputEmail.title": "Email",
+    "general.inputRepeatEmail.title": "Repeat email",
+    "general.inputPassword.title": "Password",
+    "general.inputRepeatPassword.title": "Repeat password",
+    "general.emailNotValid": "Email is not valid",
+    "general.emailNotMatch": "Email not match",
+    "general.mandatoryField": "Field required",
+    "general.passwordNotMatch": "Password not match",
+    "general.login": "Login",
+    "general.register": "Register"
+}

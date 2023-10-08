@@ -1,0 +1,20 @@
+[
+    {
+        "id": "home",
+        "href": "/",
+        "title": "general.home",
+        "classes": "default"
+    },
+    {
+        "id": "services",
+        "href": "/services",
+        "title": "general.services",
+        "classes": "default"
+    },
+    {
+        "id": "skills",
+        "href": "/skills",
+        "title": "general.skills",
+        "classes": "default"
+    }
+]
