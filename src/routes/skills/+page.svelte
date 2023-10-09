@@ -16,7 +16,7 @@
 
 	onMount(async () => {
 		window.document.body.classList.remove('page-home')
-        window.document.body.classList.add('page-services')
+        window.document.body.classList.add('page-default')
         window.document.body.classList.add('image-fill')
     })
 </script>
