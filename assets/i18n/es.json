@@ -1,0 +1,15 @@
+{
+    "loginView.title": "Area de acceso",
+    "registerView.title": "Area de registro",
+    "general.inputName.title": "Nombre que quieres te llamen",
+    "general.inputEmail.title": "Correo eletronico",
+    "general.inputRepeatEmail.title": "Repetir correo eletronico",
+    "general.inputPassword.title": "Contraseña",
+    "general.inputRepeatPassword.title": "Repetir contraseña",
+    "general.emailNotValid": "Email no válido",
+    "general.emailNotMatch": "Email no son iguales",
+    "general.mandatoryField": "Campo obligatório",
+    "general.passwordNotMatch": "Contraseña no son iguales",
+    "general.login": "Entrar",
+    "general.register": "Registrar"
+}
