@@ -3,11 +3,6 @@
 	import { menu } from '$lib/core/adapters/menu'
 	menu.updateLinks('home')
 
-	// icons
-	import linkedin from '$lib/assets/svg/linkedin.svg';
-	import medium from '$lib/assets/svg/medium.svg';
-	import github from '$lib/assets/svg/github.svg';
-
 	// Components
 	import Navbar from '$lib/ui/components/navbar/index.svelte'
 	import { i18n } from '$lib/core/adapters/i18n';
@@ -35,13 +30,13 @@
 		<section class="spacer space-xl-2"></section>
 		<section class="stack stack-drection-row stack-gap-lg stack-row-end">
 			<a href="https://www.linkedin.com/in/julio-contreras-6579b623/">
-				<img src="{linkedin}" width="39" alt="Linkedin" />
+				<img src="./assets/svg/linkedin.svg" width="39" alt="Linkedin" />
 			</a>
 			<a href="https://medium.com/@julio.aranis.contreras">
-				<img src="{medium}" width="39" alt="Medium" />
+				<img src="./assets/svg/medium.svg" width="39" alt="Medium" />
 			</a>
 			<a href="https://github.com/julioacontreras">
-				<img src="{github}" width="39" alt="Github" />
+				<img src="./assets/svg/github.svg" width="39" alt="Github" />
 			</a>
 		</section>
 	</section>
