@@ -6,19 +6,22 @@ const newPath = './public/app'
 rename(currPath, newPath, function(err) {
   if (err) {
     console.log(err)
-  } else {
-    console.log('Successfully renamed the directory.')
   }
 })
 
-
-try {
-  const indexData = readFileSync('./public/index.html', 'utf8');
-  let result = indexData
-  while (result.includes('_app')) {
-      result = result.replace('_app', 'app')
-  }
-  writeFileSync('./public/index.html', result);
-} catch (err) {
-  console.error(err);
+function changeAppName(path) {
+  try {
+    const indexData = readFileSync(path, 'utf8');
+    let result = indexData
+    while (result.includes('_app')) {
+        result = result.replace('_app', 'app')
+    }
+    writeFileSync(path, result);
+  } catch (err) {
+    console.error(err);
+  }  
 }
+
+changeAppName('./public/index.html')
+changeAppName('./public/services/index.html')
+changeAppName('./public/skills/index.html')

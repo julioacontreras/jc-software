@@ -36,7 +36,7 @@
 		<section class="spacer space-xl-4"></section>
 		<h1>DESARROLLO SOB MEDIDA</h1>
 		<section class="spacer space-sm"></section>
-		<h2 class="width-sub-title">CREACION DE SYSTEMAS Y APLICACIONES SOB MEDIDA. APROVECHANDO MODULOS Y LIBRARIAS PARA ACELERAR EL DESARROLLO.</h2>
+		<h2 class="width-sub-title">CREACIÓN DE APLICACIONES Y SERVICIOS SOB MEDIDA.</h2>
 		<section class="spacer space-xl"></section>
 		<section class="stack stack-direction-row">
 			{#each services as service}
