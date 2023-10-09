@@ -7,12 +7,18 @@ const config = {
   preprocess: autoPreprocess(),
   typescript: typescript({}),
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+			pages: 'public',
+			assets: 'public',
+			fallback: undefined,
+			precompress: false,
+			strict: true
+		}),
     alias: {
       '@': './src/',
     },  
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+      base: process.env.NODE_ENV === 'production' ? '/julioacontreras/jc-software' : '',
     }    
   },
 };
