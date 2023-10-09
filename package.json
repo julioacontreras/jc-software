@@ -13,7 +13,7 @@
 		"test": "npm run test:e2e && npm run test:unit",
 		"test:e2e": "playwright test",
 		"test:unit": "bun test",
-		"deploy": "vite build && node ./fixApp.js && npx gh-pages -d public -t true"
+		"deploy": "vite build && node ./fixApp.js && npx gh-pages -d public -t true && rm -rf public"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
