@@ -12,7 +12,8 @@
 		"format": "prettier --plugin-search-dir . --write .",
 		"test": "npm run test:e2e && npm run test:unit",
 		"test:e2e": "playwright test",
-		"test:unit": "bun test"
+		"test:unit": "bun test",
+		"deploy": "vite build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -25,6 +26,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"gh-pages": "^6.0.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
 		"sass": "^1.68.0",

@@ -1,13 +1,11 @@
 <script>
 	import { onMount } from 'svelte'
 	import { menu } from '$lib/core/adapters/menu'
-	import { html } from '$lib/core/adapters/html'
 	menu.updateLinks('home')
 
 	// Components
 	import Navbar from '$lib/ui/components/navbar/index.svelte'
 	import { i18n } from '$lib/core/adapters/i18n';
-
 
     onMount(async () => {
 		window.document.body.classList.remove('page-services')
