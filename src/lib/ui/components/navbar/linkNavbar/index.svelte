@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import './style.scss'
     
     /** @type {string} href */ 
@@ -8,6 +9,6 @@
     export let isActive
 </script>
 
-<a class="link-navbar" class:active={isActive} {href}> 
+<a class="link-navbar" class:active={isActive} href="{base}{href}"> 
     <slot />
 </a>

@@ -16,11 +16,11 @@ const config = {
 		}),
     alias: {
       '@': './src/',
-    },  
+    },
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/julioacontreras/jc-software' : '',
-    }    
-  },
+      base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
+    },
+  }
 };
 
 export default config;
