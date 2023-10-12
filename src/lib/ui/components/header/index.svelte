@@ -8,11 +8,7 @@
 <div class="stack stack-drection-row stack-gap-lg stack-width-full">
     <Navbar />
     <div class="stack stack-drection-row stack-width-fit">
-        <div>
-            <BtnLang />
-        </div>
-        <div>
-            <BtnTheme />
-        </div>    
+        <BtnLang />
+        <BtnTheme />
     </div>  
 </div>
