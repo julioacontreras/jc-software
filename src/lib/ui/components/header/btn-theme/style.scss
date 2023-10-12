@@ -1,0 +1,23 @@
+@import '../../../style/constants';
+@import '../btn';
+
+.btn-theme {
+    height: 44px;
+    width: 44px;
+    font-size: $font_default;
+    text-align: center;
+}
+
+.btn-light {
+    filter: grayscale(1);
+    &:hover {
+        filter: none;
+    }
+}
+
+.btn-dark {
+    filter: grayscale(1) brightness(50%);
+    &:hover {
+        filter: none;
+    }
+}

@@ -15,22 +15,12 @@ a {
     filter: blur(1px);
 }
 
-.fade-in {
-    animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
 .page-home {
     background-image: url(/assets/images/home.png);
     background-repeat: no-repeat;
 }
 
-.page.default {
+.page-default {
     background-image: url(/assets/images/background.png);
 }
 

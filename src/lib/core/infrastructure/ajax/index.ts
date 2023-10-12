@@ -1,5 +1,4 @@
 import { type AjaxAdapter, setAjax, ErrorCode } from '../../adapters/ajax'
-import { logger } from '../../adapters/logger'
 
 export class Ajax implements AjaxAdapter {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -22,4 +21,3 @@ export class Ajax implements AjaxAdapter {
 
 const ajax = new Ajax()
 setAjax(ajax)
-logger.log('Ajax infrastructure loaded!')

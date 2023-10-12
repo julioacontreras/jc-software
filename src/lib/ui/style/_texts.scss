@@ -18,16 +18,13 @@
     font-size: $font_default;
 }
 
-h1 {
-    text-transform: uppercase;
-    font-size: $font_lg;
-    font-weight: normal;
-    color: $primary;
-}
-
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-size: $font_default;
     font-weight: normal;
-    color: $primary;
+    color: var(--text_primary);
+}
+
+h1 {
+    font-size: $font_lg;
 }

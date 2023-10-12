@@ -2,6 +2,14 @@
     display: flex;
 }
 
+.stack-width-full {
+    width: 100%;
+}
+
+.stack-width-fit {
+    width: fit-content;
+}
+
 .stack-balanced {
     justify-content: space-around;
 }

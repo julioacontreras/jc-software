@@ -1,8 +1,16 @@
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export let i18n: any
+export let i18n: I18nAdapter
+
+export type CallbackDictionary = (data: unknown) => void
 
 export interface I18nAdapter {
-    t: (key: string) => void
+    subscribe: (callback: CallbackDictionary) => void
+
+    setLang: (lang: string) => void
+
+    getLang: () => string 
+
+    getDefaultLang: () => Promise<string>
 }
 
 export const ErrorCode = {

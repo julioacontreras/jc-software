@@ -1,5 +1,4 @@
 import { setConfig, type ConfigAdapter } from '../../adapters/config'
-import { logger } from '../../adapters/logger'
 import fs from 'fs'
 
 class Config implements ConfigAdapter {
@@ -16,4 +15,3 @@ class Config implements ConfigAdapter {
 }
 
 setConfig(new Config())
-logger.log('Config infrastructure loaded!')

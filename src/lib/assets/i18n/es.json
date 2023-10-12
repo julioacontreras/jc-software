@@ -4,9 +4,73 @@
     "general.skills": "Habilidads",
     "general.services": "Servicios",
     "general.contact": "Contacto",
-    "home.about": "PROGRAMADOR A MÁS DE 10 AÑOS EN TECNOLOGIAS WEB, BUSCO TRAER SOLUCIONES DE ALTA PERFORMANCE EN:",
-    "home.about.item1": "ARCHITECTURA DE SOFTWARE",
-    "home.about.item2": "MICRO SERVICIOS",
-    "home.about.item3": "MICRO FRONTENDS",
-    "home.about.item4": "CONSULTORIA"
+    "general.menu": [
+        {
+            "id": "home",
+            "href": "/",
+            "title": "Home",
+            "classes": "default"
+        },
+        {
+            "id": "services",
+            "href": "/services/",
+            "title": "Servicios",
+            "classes": "default"
+        },
+        {
+            "id": "skills",
+            "href": "/skills/",
+            "title": "Habilidads",
+            "classes": "default"
+        }        
+    ],
+    "services.title": "DESARROLLO SOB MEDIDA",
+    "services.subtitle": "CREACIÓN DE APLICACIONES Y SERVICIOS SOB MEDIDA.",
+    "services.list": [
+        {
+            "title": "Frontend",
+            "items": [
+                "ARQUITECTURA DE SOFTWARE",
+                "FRONTENDS & MICRO FRONTENDS",
+                "API & MICRO SERVICES"
+            ]
+        }    
+    ],
+    "skills.list": [
+        {
+            "title": "Frontend",
+            "items": [
+                "SVELTE",
+                "VUE, VUE 3",
+                "REACT",
+                "SOLID JS",
+                "JAVASCRIPT",
+                "HTML",
+                "CSS",
+                "TYPESCRIPT"
+            ]
+        },
+        {
+            "title": "Backend",
+            "items": [
+                "DDD",
+                "MONGO DB",
+                "REDIS",
+                "QUEUE MESSAGES",
+                "MYSQL",
+                "POSTGRE SQL",
+                "PYTHON",
+                "GRAPH QL",
+                "SQL"
+            ]
+        },
+        {
+            "title": "General",
+            "items": [
+                "NODE JS",
+                "BUN",
+                "GIT"
+            ]
+        }
+    ]
 }

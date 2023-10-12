@@ -1,27 +1,31 @@
 <script>
+// @ts-nocheck
+
 	import { onMount } from 'svelte'
-	import { menu } from '$lib/core/adapters/menu'
-	menu.updateLinks('home')
 
 	// Components
-	import Navbar from '$lib/ui/components/navbar/index.svelte'
 	import { i18n } from '$lib/core/adapters/i18n';
+    // Language reactive
+ 	/** @param {any} dictionary */		
+	 let t = {}
+	i18n.subscribe(
+		/** @param {any} data */		
+		(data) => {
+			t = data
+		})
 
     onMount(async () => {
-		window.document.body.classList.remove('page-services')
+		window.document.body.classList.remove('page-default')
 		window.document.body.classList.remove('image-fill')
         window.document.body.classList.add('page-home')
 	})
 </script>
 
 <svelte:head>
-	<title> {i18n.t('general.home')} - {i18n.t('general.app')}</title>
+	<title> {t['general.home']} - {t['general.app']}</title>
 </svelte:head>
 
 <div class="container">
-	<section class="stack stack-row">
-		<Navbar classes="navbar" links="{menu.getLinks()}"></Navbar>
-	</section>
 	<section class="stack stack-direction-column fade-in text-end" >
 		<section class="spacer space-xl-4"></section>
 		<h1 class="text-primary">JULIO CONTRERAS</h1>
