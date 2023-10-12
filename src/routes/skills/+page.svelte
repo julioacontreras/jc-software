@@ -1,6 +1,4 @@
-<script>
-// @ts-nocheck
-
+<script lang="ts">
     import './style.scss'
 	import { onMount } from 'svelte'
 
@@ -8,23 +6,22 @@
 	import { i18n } from '$lib/core/adapters/i18n'
 
     // language reactive
- 	/** @param {any} dictionary */		
-	let t = {}
+	let t:Record<string, unknown> = {}
 	i18n.subscribe(
-		/** @param {any} data */		
-		(data) => {
-			t = data
+		(data: unknown) => {
+			t = data as Record<string, unknown>
 		})
 
 	// Components & views
-	import TextList from '$lib/ui/components/textList/index.svelte'
+	import TextList from '@/lib/ui/components/text-list/index.svelte'
+
+	$:skills = t['skills.list'] as any[] || []
 
 	onMount(async () => {
 		window.document.body.classList.remove('page-home')
         window.document.body.classList.add('page-default')
         window.document.body.classList.add('image-fill')
     })
-
 </script>
 
 <svelte:head>
@@ -37,7 +34,7 @@
 		<h1>{t['general.skills']}</h1>
 		<section class="spacer space-xl"></section>
 		<section class="grid grid-skills grid-direction-row grid-gap-xl">
-			{#each t['skills.list'] as skill}
+			{#each skills as skill}
 			<div>
 				<h2>{skill.title}</h2>
 				<section class="spacer space-sm"></section>

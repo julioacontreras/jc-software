@@ -1,22 +1,21 @@
-<script>
-	// @ts-nocheck
-
+<script lang="ts">
     import './style.scss'
 	import { onMount } from 'svelte'
 
 	// Adapters
 	import { i18n } from '$lib/core/adapters/i18n'
+
     // Language reactive
- 	/** @param {any} dictionary */		
-	let t = {}
+	let t:Record<string, unknown>  = {}
 	i18n.subscribe(
-		/** @param {any} data */		
 		(data) => {
-			t = data
+			t = data as Record<string, unknown> 
 		})
 
-	// Components & views
-	import TextList from '$lib/ui/components/textList/index.svelte'
+	// Components
+	import TextList from '@/lib/ui/components/text-list/index.svelte'
+
+	$:services = t['services.list'] as any[] || []
 
 	onMount(async () => {
 		window.document.body.classList.remove('page-home')
@@ -37,7 +36,7 @@
 		<h2 class="width-sub-title">{t['services.subtitle']}</h2>
 		<section class="spacer space-xl"></section>
 		<section class="stack stack-direction-row">
-			{#each t['services.list'] as service}
+			{#each services as service}
 				<TextList decoration="pill" gap="sm" items="{service.items}" classes="list-services"></TextList>
 			{/each}
 		</section>
