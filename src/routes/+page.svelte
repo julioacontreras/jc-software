@@ -30,7 +30,7 @@
 		<section class="spacer space-xl-4"></section>
 		<h1 class="text-primary">JULIO CONTRERAS</h1>
 		<section class="spacer space-sm"></section>
-		<h2 class="text-primary">SENIOR WEB PROGRAMMER</h2>
+		<h2 class="text-primary">WEB DEVELOPER</h2>
 		<section class="spacer space-xl-2"></section>
 		<section class="stack stack-drection-row stack-gap-lg stack-row-end">
 			<SocialLinks />

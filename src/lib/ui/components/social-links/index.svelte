@@ -19,9 +19,9 @@
 <a href="https://www.linkedin.com/in/julio-contreras-6579b623/">
     <img src="./assets/svg/{linkedin}.svg" width="39" alt="Linkedin" />
 </a>
-<a href="https://medium.com/@julio.aranis.contreras">
-    <img src="./assets/svg/{github}.svg" width="39" alt="Medium" />
-</a>
 <a href="https://github.com/julioacontreras">
-    <img src="./assets/svg/{medium}.svg" width="39" alt="Github" />
+    <img src="./assets/svg/{github}.svg" width="39" alt="Github" />
+</a>
+<a href="https://medium.com/@julio.aranis.contreras">
+    <img src="./assets/svg/{medium}.svg" width="39" alt="Medium" />
 </a>
