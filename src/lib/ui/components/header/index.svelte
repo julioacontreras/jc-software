@@ -7,7 +7,7 @@
 
 <div class="stack stack-drection-row stack-gap-lg stack-width-full">
     <Navbar />
-    <div class="stack stack-drection-row stack-width-fit">
+    <div data-name="navbar-settings" class="stack stack-drection-row stack-width-fit">
         <BtnLang />
         <BtnTheme />
     </div>  
