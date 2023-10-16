@@ -72,5 +72,7 @@
                 "GIT"
             ]
         }
-    ]    
+    ],
+    "error.title": "This page not exist",
+    "error.link-home": "Go home page"
 }
