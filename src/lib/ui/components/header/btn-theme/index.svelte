@@ -49,7 +49,7 @@
 </script>
 
 <button
-    data-name="button-theme"
+    role="button-theme"
     class="btn btn-theme"
     class:btn-light={theme === ICON_THEME_DARK}
     class:btn-dark={theme === ICON_THEME_LIGHT}

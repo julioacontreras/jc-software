@@ -16,9 +16,6 @@ const config = {
 		}),
     alias: {
       '@': './src/',
-    },
-    paths: {
-      // base: process.env.NODE_ENV === 'production' ? '/sveltekit-gh-pages' : ''
     }
   }
 };
