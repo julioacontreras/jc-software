@@ -1,70 +1,70 @@
 .space-xs {
-    height: $space_xs;
+	height: $space_xs;
 }
 
 .space-sm {
-    height: $space_sm;
+	height: $space_sm;
 }
 
 .space-lg {
-    height: $space_lg;
+	height: $space_lg;
 }
 
 .space-xl {
-    height: $space_xl;
+	height: $space_xl;
 }
 
 .space-xl-2 {
-    height: $space_xl-2;
+	height: $space_xl-2;
 }
 
 .space-xl-3 {
-    height: $space_xl-3;
+	height: $space_xl-3;
 }
 
 .space-xl-4 {
-    height: $space_xl-4;
+	height: $space_xl-4;
 }
 
 .width-full {
-    width: 100%;
+	width: 100%;
 }
 
 .spacer {
-    width: 100%;
+	width: 100%;
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* SMARTPHONE */
 @media only screen and (max-width: 767px) {
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+	.container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+	.container {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
-    .container {
-        max-width: 900px;
-        padding-left: 3rem;
-        padding-right: 3rem;
-        min-width: 400px;
-    }
+	.container {
+		max-width: 900px;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		min-width: 400px;
+	}
 }
 
 .app {
-    position: relative;
+	position: relative;
 }

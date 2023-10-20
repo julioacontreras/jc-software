@@ -1,32 +1,32 @@
 @import '../../lib/ui/style/constants';
 
 .list-skills {
-    color: var(--text_primary);
-    li {
-        filter: blur(1px);
-        &:hover {
-            filter: blur(0px);
-        }
-    }    
+	color: var(--text_primary);
+	li {
+		filter: blur(1px);
+		&:hover {
+			filter: blur(0px);
+		}
+	}
 }
 
 /* SMARTPHONE */
 @media only screen and (max-width: 767px) {
-    .grid-skills {
-        grid-template-columns: repeat(1, 1fr);
-    }
+	.grid-skills {
+		grid-template-columns: repeat(1, 1fr);
+	}
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .grid-skills {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	.grid-skills {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
-    .grid-skills {
-        grid-template-columns: repeat(3, 1fr);
-    }
+	.grid-skills {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }

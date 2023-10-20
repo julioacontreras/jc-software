@@ -1,78 +1,70 @@
 {
-    "general.app": "Julio Contreras Portfolio",
-    "general.home": "Home",
-    "general.skills": "Habilidades",
-    "general.services": "Servicios",
-    "general.contact": "Contacto",
-    "general.menu": [
-        {
-            "id": "home",
-            "href": "/",
-            "title": "Home",
-            "classes": "default"
-        },
-        {
-            "id": "services",
-            "href": "/services/",
-            "title": "Servicios",
-            "classes": "default"
-        },
-        {
-            "id": "skills",
-            "href": "/skills/",
-            "title": "Habilidades",
-            "classes": "default"
-        }        
-    ],
-    "services.title": "DESARROLLO SOB MEDIDA",
-    "services.subtitle": "CREACIÓN DE APLICACIONES Y SERVICIOS SOB MEDIDA.",
-    "services.list": [
-        {
-            "title": "Frontend",
-            "items": [
-                "ARQUITECTURA DE SOFTWARE",
-                "FRONTENDS & MICRO FRONTENDS",
-                "API & MICRO SERVICES"
-            ]
-        }    
-    ],
-    "skills.list": [
-        {
-            "title": "Frontend",
-            "items": [
-                "SVELTE",
-                "VUE, VUE 3",
-                "REACT",
-                "SOLID JS",
-                "JAVASCRIPT",
-                "HTML",
-                "CSS",
-                "TYPESCRIPT"
-            ]
-        },
-        {
-            "title": "Backend",
-            "items": [
-                "DDD",
-                "MONGO DB",
-                "REDIS",
-                "QUEUE MESSAGES",
-                "MYSQL",
-                "POSTGRE SQL",
-                "PYTHON",
-                "GRAPH QL",
-                "SQL"
-            ]
-        },
-        {
-            "title": "General",
-            "items": [
-                "NODE JS",
-                "BUN",
-                "GIT"
-            ]
-        }
-    ],
-    "error.title": "Página no existe",
-    "error.link-home": "Volver a la home"
+	"general.app": "Julio Contreras Portfolio",
+	"general.home": "Home",
+	"general.skills": "Habilidades",
+	"general.services": "Servicios",
+	"general.contact": "Contacto",
+	"general.menu": [
+		{
+			"id": "home",
+			"href": "/",
+			"title": "Home",
+			"classes": "default"
+		},
+		{
+			"id": "services",
+			"href": "/services/",
+			"title": "Servicios",
+			"classes": "default"
+		},
+		{
+			"id": "skills",
+			"href": "/skills/",
+			"title": "Habilidades",
+			"classes": "default"
+		}
+	],
+	"services.title": "DESARROLLO SOB MEDIDA",
+	"services.subtitle": "CREACIÓN DE APLICACIONES Y SERVICIOS SOB MEDIDA.",
+	"services.list": [
+		{
+			"title": "Frontend",
+			"items": ["ARQUITECTURA DE SOFTWARE", "FRONTENDS & MICRO FRONTENDS", "API & MICRO SERVICES"]
+		}
+	],
+	"skills.list": [
+		{
+			"title": "Frontend",
+			"items": [
+				"SVELTE",
+				"VUE, VUE 3",
+				"REACT",
+				"SOLID JS",
+				"JAVASCRIPT",
+				"HTML",
+				"CSS",
+				"TYPESCRIPT"
+			]
+		},
+		{
+			"title": "Backend",
+			"items": [
+				"DDD",
+				"MONGO DB",
+				"REDIS",
+				"QUEUE MESSAGES",
+				"MYSQL",
+				"POSTGRE SQL",
+				"PYTHON",
+				"GRAPH QL",
+				"SQL"
+			]
+		},
+		{
+			"title": "General",
+			"items": ["NODE JS", "BUN", "GIT"]
+		}
+	],
+	"error.title": "Página no existe",
+	"error.link-home": "Volver a la home"
 }

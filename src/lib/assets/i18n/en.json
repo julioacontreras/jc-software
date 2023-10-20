@@ -1,78 +1,70 @@
 {
-    "general.app": "Julio Contreras Portfolio",
-    "general.home": "Home",
-    "general.skills": "Skills",
-    "general.services": "Services",
-    "general.contact": "Contact",
-    "general.menu": [
-        {
-            "id": "home",
-            "href": "/",
-            "title": "Home",
-            "classes": "default"
-        },
-        {
-            "id": "services",
-            "href": "/services/",
-            "title": "Services",
-            "classes": "default"
-        },
-        {
-            "id": "skills",
-            "href": "/skills/",
-            "title": "Skills",
-            "classes": "default"
-        }        
-    ],
-    "services.title": "CUSTOM DEVELOPMENT",
-    "services.subtitle": "CREATION OF CUSTOMIZED APPLICATIONS AND SERVICES.",
-    "services.list": [
-        {
-            "title": "Frontend",
-            "items": [
-                "SOFTWARE ARCHITECTURE",
-                "FRONTENDS & MICRO FRONTENDS",
-                "API & MICRO SERVICES"
-            ]
-        }    
-    ],
-    "skills.list": [
-        {
-            "title": "Frontend",
-            "items": [
-                "SVELTE",
-                "VUE, VUE 3",
-                "REACT",
-                "SOLID JS",
-                "JAVASCRIPT",
-                "HTML",
-                "CSS",
-                "TYPESCRIPT"
-            ]
-        },
-        {
-            "title": "Backend",
-            "items": [
-                "DDD",
-                "MONGO DB",
-                "REDIS",
-                "QUEUE MESSAGES",
-                "MYSQL",
-                "POSTGRE SQL",
-                "PYTHON",
-                "GRAPH QL",
-                "SQL"
-            ]
-        },
-        {
-            "title": "General",
-            "items": [
-                "NODE JS",
-                "BUN",
-                "GIT"
-            ]
-        }
-    ],
-    "error.title": "This page not exist",
-    "error.link-home": "Go home page"
+	"general.app": "Julio Contreras Portfolio",
+	"general.home": "Home",
+	"general.skills": "Skills",
+	"general.services": "Services",
+	"general.contact": "Contact",
+	"general.menu": [
+		{
+			"id": "home",
+			"href": "/",
+			"title": "Home",
+			"classes": "default"
+		},
+		{
+			"id": "services",
+			"href": "/services/",
+			"title": "Services",
+			"classes": "default"
+		},
+		{
+			"id": "skills",
+			"href": "/skills/",
+			"title": "Skills",
+			"classes": "default"
+		}
+	],
+	"services.title": "CUSTOM DEVELOPMENT",
+	"services.subtitle": "CREATION OF CUSTOMIZED APPLICATIONS AND SERVICES.",
+	"services.list": [
+		{
+			"title": "Frontend",
+			"items": ["SOFTWARE ARCHITECTURE", "FRONTENDS & MICRO FRONTENDS", "API & MICRO SERVICES"]
+		}
+	],
+	"skills.list": [
+		{
+			"title": "Frontend",
+			"items": [
+				"SVELTE",
+				"VUE, VUE 3",
+				"REACT",
+				"SOLID JS",
+				"JAVASCRIPT",
+				"HTML",
+				"CSS",
+				"TYPESCRIPT"
+			]
+		},
+		{
+			"title": "Backend",
+			"items": [
+				"DDD",
+				"MONGO DB",
+				"REDIS",
+				"QUEUE MESSAGES",
+				"MYSQL",
+				"POSTGRE SQL",
+				"PYTHON",
+				"GRAPH QL",
+				"SQL"
+			]
+		},
+		{
+			"title": "General",
+			"items": ["NODE JS", "BUN", "GIT"]
+		}
+	],
+	"error.title": "This page not exist",
+	"error.link-home": "Go home page"
 }

@@ -1,54 +1,54 @@
 @import '../lib/ui/style/constants';
 
 .navbar {
-    text-transform: uppercase;
-    width: 100%;
-    padding-top: $space_lg;
+	text-transform: uppercase;
+	width: 100%;
+	padding-top: $space_lg;
 }
 
 a {
-    text-transform: uppercase;
-    transition: all 200ms;
+	text-transform: uppercase;
+	transition: all 200ms;
 }
 
 .active {
-    filter: blur(1px);
+	filter: blur(1px);
 }
 
 .page-home {
-    background-image: url(/assets/images/home.png);
-    background-repeat: no-repeat;
+	background-image: url(/assets/images/home.png);
+	background-repeat: no-repeat;
 }
 
 .page-default {
-    background-image: url(/assets/images/background.png);
+	background-image: url(/assets/images/background.png);
 }
 
 .text-list-decoration-pill li {
-    list-style-type: none;
-    border-style: solid;
-    border-radius: $radius_lg;
-    border-color: var(--border-default);
-    padding: $space-sm $space-lg $space-sm $space-lg;
+	list-style-type: none;
+	border-style: solid;
+	border-radius: $radius_lg;
+	border-color: var(--border-default);
+	padding: $space-sm $space-lg $space-sm $space-lg;
 }
 
 /* SMARTPHONE */
 @media only screen and (max-width: 767px) {
-    .navbar {
-        flex-direction: column;
-    }
+	.navbar {
+		flex-direction: column;
+	}
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .navbar {
-        flex-direction: row;
-    }
+	.navbar {
+		flex-direction: row;
+	}
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
-    .navbar {
-        flex-direction: row;
-    }
+	.navbar {
+		flex-direction: row;
+	}
 }

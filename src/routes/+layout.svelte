@@ -1,19 +1,19 @@
 <script>
-	import './style.scss'
-	import { onMount } from 'svelte'
+	import './style.scss';
+	import { onMount } from 'svelte';
 
-	import '$lib/ui/style/main.scss'
-	import '$lib/index'
+	import '$lib/ui/style/main.scss';
+	import '$lib/index';
 
 	// Components
-	import Header from '@/lib/ui/components/header/index.svelte'
-	
-	// Reactive variables
-	$:showPage = false
+	import Header from '@/lib/ui/components/header/index.svelte';
 
-    onMount(async () => {
-		showPage = true
-    })
+	// Reactive variables
+	$: showPage = false;
+
+	onMount(async () => {
+		showPage = true;
+	});
 </script>
 
 <div class="app">
@@ -24,4 +24,3 @@
 		<slot />
 	{/if}
 </div>
-
