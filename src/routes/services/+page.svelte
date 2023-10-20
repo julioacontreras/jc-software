@@ -14,6 +14,7 @@
 	// Components
 	import TextList from '@/lib/ui/components/text-list/index.svelte';
 
+	// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 	$: services = (t['services.list'] as any[]) || [];
 
 	onMount(async () => {

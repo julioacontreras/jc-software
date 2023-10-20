@@ -10,8 +10,10 @@
 	import type { MouseEventHandler } from 'svelte/elements';
 
 	// Reactive language
+	// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 	let t: Record<string, any> = {};
 	i18n.subscribe((data: unknown) => {
+		// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 		t = data as Record<string, any>;
 	});
 

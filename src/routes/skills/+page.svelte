@@ -14,6 +14,7 @@
 	// Components & views
 	import TextList from '@/lib/ui/components/text-list/index.svelte';
 
+	// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 	$: skills = (t['skills.list'] as any[]) || [];
 
 	onMount(async () => {
