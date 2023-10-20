@@ -1,6 +1,6 @@
 {
 	"name": "jc",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -20,6 +20,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.39.0",
+		"@rollup/plugin-typescript": "^11.1.5",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.20.4",
@@ -47,9 +48,5 @@
 		"vite": "^4.4.2",
 		"vitest": "^0.32.2"
 	},
-	"type": "module",
-	"dependencies": {
-		"@rollup/plugin-typescript": "^11.1.4",
-		"svelte-use-form": "^2.10.0"
-	}
+	"type": "module"
 }
