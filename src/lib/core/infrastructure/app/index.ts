@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import { setGlobal, type GlobalAdapter, type CallbackGlobal } from '../../adapters/app';
+import { setApp, type GlobalAdapter, type CallbackGlobal } from '../../adapters/app';
 
 const settings: Record<string, unknown> = {
 	lang: '',
@@ -18,4 +18,4 @@ class Global implements GlobalAdapter {
 	}
 }
 
-setGlobal(new Global());
+setApp(new Global());

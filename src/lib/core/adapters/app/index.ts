@@ -8,6 +8,6 @@ export interface GlobalAdapter {
 	set: (settings: Record<string, unknown>) => void;
 }
 
-export function setGlobal(instance: GlobalAdapter) {
+export function setApp(instance: GlobalAdapter) {
 	app = instance;
 }

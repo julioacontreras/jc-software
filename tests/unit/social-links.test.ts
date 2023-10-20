@@ -2,11 +2,11 @@ import { cleanup, render, screen } from '@testing-library/svelte';
 import SocialLinks from '../../src/lib/ui/components/social-links/index.svelte';
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
 
-import { setGlobal } from '../../src/lib/core/adapters/app/index';
+import { setApp } from '../../src/lib/core/adapters/app/index';
 
 const subscribeMocked = vi.fn();
 
-setGlobal({
+setApp({
 	subscribe: subscribeMocked,
 	set: () => {}
 });

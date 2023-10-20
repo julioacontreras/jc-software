@@ -13,7 +13,7 @@ export interface I18nAdapter {
 }
 
 export const ErrorCode = {
-	ERROR_NOT_FOUND_DICTIONARY: 'INF00002'
+	ERROR_NOT_FOUND_DICTIONARY: 'I18N_ERROR_NOT_FOUND_DICTIONARY'
 };
 
 export function setI18n(i18nInstance: I18nAdapter) {

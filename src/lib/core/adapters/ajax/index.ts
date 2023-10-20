@@ -4,7 +4,7 @@ export interface AjaxAdapter {
 }
 
 export const ErrorCode = {
-	ERROR_AJAX: 'INF00001'
+	ERROR_AJAX: 'AJAX_ERROR_INTERNAL_ERROR'
 };
 
 export let ajax: AjaxAdapter;
