@@ -27,11 +27,11 @@ describe('SocialLinks.svelte', () => {
 
   it('Check links', async () => {
     render(SocialLinks, {})
-    const linkedin = screen.getByRole('link-linkedin')
+    const linkedin = screen.getByTestId('link-linkedin')
 	  expect(linkedin).toBeTruthy()
-    const github = screen.getByRole('link-github')
+    const github = screen.getByTestId('link-github')
 	  expect(github).toBeTruthy()
-    const medium = screen.getByRole('link-medium')
+    const medium = screen.getByTestId('link-medium')
 	  expect(medium).toBeTruthy()
     expect(subscribeMocked).toBeCalledTimes(1)
   })

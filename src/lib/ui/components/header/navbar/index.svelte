@@ -37,7 +37,7 @@
     })
 </script>
 
-<div role="navbar-top" class="navbar stack-width-full">
+<div prop-name="navbar-top" class="navbar stack-width-full">
     {#each t['general.menu'] as link}
         <a 
             href="{base}{link.href}?{langParam}&{themeParam}"

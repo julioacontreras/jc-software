@@ -13,8 +13,8 @@
     "test": "npm run test:e2e && npm run test:unit",
     "build:e2e": "vite build --mode development",
     "preview:e2e": "vite preview --mode development",
-    "test:e2e": "playwright test",
-    "test:unit": "vitest",
+    "test:e2e": "playwright test && rm -rf ./public",
+    "test:unit": "vitest run",
     "deploy": "vite build && node ./fixApp.js && npx gh-pages -d public -t true && rm -rf public"
   },
   "devDependencies": {
