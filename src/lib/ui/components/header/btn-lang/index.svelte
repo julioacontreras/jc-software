@@ -55,7 +55,7 @@
     })
 </script>
 <button
-    prop-name="button-lang"
+    data-testid="button-lang"
     class="btn btn-lang"
     class:btn-light={theme === ICON_THEME_DARK}
     class:btn-dark={theme === ICON_THEME_LIGHT}

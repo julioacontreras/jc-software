@@ -16,12 +16,12 @@
 	$:medium = settings.theme === THEME_LIGHT ? 'medium-light' : 'medium'
 </script>
 
-<a id="link-linkedin" href="https://www.linkedin.com/in/julio-contreras-6579b623/">
+<a data-testid="link-linkedin" href="https://www.linkedin.com/in/julio-contreras-6579b623/">
     <img src="./assets/svg/{linkedin}.svg" width="39" alt="Linkedin" />
 </a>
-<a id="link-github" href="https://github.com/julioacontreras">
+<a data-testid="link-github" href="https://github.com/julioacontreras">
     <img src="./assets/svg/{github}.svg" width="39" alt="Github" />
 </a>
-<a id="link-medium" href="https://medium.com/@julio.aranis.contreras">
+<a data-testid="link-medium" href="https://medium.com/@julio.aranis.contreras">
     <img src="./assets/svg/{medium}.svg" width="39" alt="Medium" />
 </a>

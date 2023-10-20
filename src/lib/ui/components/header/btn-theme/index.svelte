@@ -49,7 +49,7 @@
 </script>
 
 <button
-    prop-name="button-theme"
+    data-testid="button-theme"
     class="btn btn-theme"
     class:btn-light={theme === ICON_THEME_DARK}
     class:btn-dark={theme === ICON_THEME_LIGHT}
