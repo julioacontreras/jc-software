@@ -1,12 +1,12 @@
 <script lang="ts">
 	import './style.scss';
 	import { onMount } from 'svelte';
-	import type {Items} from '@/lib/ui/components/text-list/types';
+	import type { Items } from '@/lib/ui/components/text-list/types';
 
 	type Service = {
 		title: string;
 		items: Items;
-	}
+	};
 
 	// Adapters
 	import { i18n } from '$lib/core/adapters/i18n';

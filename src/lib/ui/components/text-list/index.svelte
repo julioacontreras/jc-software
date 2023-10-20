@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './style.scss';
 
-	import type {Items} from './types';
+	import type { Items } from './types';
 
 	export let classes = '';
 	export let items: Items;

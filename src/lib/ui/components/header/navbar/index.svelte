@@ -19,11 +19,9 @@
 
 	// Reactive app
 	let settings: Record<string, unknown> = {};
-	app.subscribe(
-		(data: unknown) => {
-			settings = data as Record<string, unknown>;
-		}
-	);
+	app.subscribe((data: unknown) => {
+		settings = data as Record<string, unknown>;
+	});
 
 	const updateActive = (href: string): MouseEventHandler<HTMLAnchorElement> | null | undefined => {
 		settings.activePage = href;
