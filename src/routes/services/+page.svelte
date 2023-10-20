@@ -1,6 +1,7 @@
 <script lang="ts">
 	import './style.scss';
 	import { onMount } from 'svelte';
+	import type {Items} from '@/lib/ui/components/text-list/types';
 
 	// Adapters
 	import { i18n } from '$lib/core/adapters/i18n';
@@ -14,8 +15,7 @@
 	// Components
 	import TextList from '@/lib/ui/components/text-list/index.svelte';
 
-	// eslint-disable-next-line  @typescript-eslint/no-explicit-any
-	$: services = (t['services.list'] as any[]) || [];
+	$: services = (t['services.list'] as {items: Items}[]) || [];
 
 	onMount(async () => {
 		window.document.body.classList.remove('page-home');

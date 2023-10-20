@@ -1,22 +1,13 @@
-<script>
+<script lang="ts">
 	import './style.scss';
 
-	/** @type {string} classes */
+	import type {Items} from './types';
+
 	export let classes = '';
-
-	/** @type {string[]} links */
-	export let items;
-
-	/** @type {string} decoration */
+	export let items: Items;
 	export let decoration = 'none';
-
-	/** @type {string} gap */
 	export let gap = 'none';
-
-	/** @type {string} distribution */
 	export let distribution = 'start';
-
-	/** @type {string} direction */
 	export let direction = 'column';
 </script>
 

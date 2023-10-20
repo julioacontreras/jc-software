@@ -12,7 +12,6 @@ const storeDictionary = writable(dictionaries['es']);
 class I18n implements I18nAdapter {
 	public lang: string = '';
 
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	subscribe(callback: CallbackDictionary) {
 		storeDictionary.subscribe(callback);
 	}

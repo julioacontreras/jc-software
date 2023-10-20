@@ -20,7 +20,6 @@
 	// Reactive app
 	let settings: Record<string, unknown> = {};
 	app.subscribe(
-		/** @param {any} data */
 		(data: unknown) => {
 			settings = data as Record<string, unknown>;
 		}
