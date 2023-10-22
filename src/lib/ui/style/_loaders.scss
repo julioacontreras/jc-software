@@ -1,40 +1,39 @@
 @use 'colors';
 
 .loader {
-    display: inline-block;
-    &:after {
-        content: " ";
-        display: block;
-        border: 6px solid colors.$border_primary;
-        border-color: colors.$border_primary transparent colors.$border_primary transparent;
-        animation: loader-animated 1.2s linear infinite;
-      }
+	display: inline-block;
+	&:after {
+		content: ' ';
+		display: block;
+		border: 6px solid colors.$border_primary;
+		border-color: colors.$border_primary transparent colors.$border_primary transparent;
+		animation: loader-animated 1.2s linear infinite;
+	}
 }
 
 .loader-lg {
-    width: 80px;
-    height: 80px;
-    &:after {
-        width: 64px;
-        height: 64px;
-        margin: 0;
-        border-radius: 50%;
-    }
+	width: 80px;
+	height: 80px;
+	&:after {
+		width: 64px;
+		height: 64px;
+		margin: 0;
+		border-radius: 50%;
+	}
 }
 
 .loader-sm {
-    &:after {
-        margin: 0;
-        border-radius: 50%;
-    }
+	&:after {
+		margin: 0;
+		border-radius: 50%;
+	}
 }
 
 @keyframes loader-animated {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
-  

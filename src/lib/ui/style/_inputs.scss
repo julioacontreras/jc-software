@@ -3,20 +3,26 @@
 @use 'shadows';
 @use 'fonts';
 
-input[type="email"], input[type="text"], input[type="password"] {
-    color: var(--text-primary);
-    background-color: var(--background_primary);
-    border-radius: radius.$radius_default;
-    border-color: var(--border_primary);
-    border-style: solid;
-    padding: spaces.$space_default spaces.$space_sm spaces.$space_default spaces.$space_sm;
-    font-size: fonts.$font_default;
-    box-shadow: shadows.$box-shadow;
-    &:hover, &:focus-visible, &:focus-within, &:target, &:active {
-        border-color: var(--border_default);
-        box-shadow: shadows.$box-shadow-hover;
-    }
-    &:focus {
-        outline-color: var(--border_default);        
-    }
+input[type='email'],
+input[type='text'],
+input[type='password'] {
+	color: var(--text-primary);
+	background-color: var(--background_primary);
+	border-radius: radius.$radius_default;
+	border-color: var(--border_primary);
+	border-style: solid;
+	padding: spaces.$space_default spaces.$space_sm spaces.$space_default spaces.$space_sm;
+	font-size: fonts.$font_default;
+	box-shadow: shadows.$box-shadow;
+	&:hover,
+	&:focus-visible,
+	&:focus-within,
+	&:target,
+	&:active {
+		border-color: var(--border_default);
+		box-shadow: shadows.$box-shadow-hover;
+	}
+	&:focus {
+		outline-color: var(--border_default);
+	}
 }

@@ -1,13 +1,13 @@
 @use 'spaces';
 
 .spacer {
-    width: 100%;
+	width: 100%;
 }
 
 .space-lg {
-    height: spaces.$space_lg;
+	height: spaces.$space_lg;
 }
 
 .space-sm {
-    height: spaces.$space_sm;
+	height: spaces.$space_sm;
 }

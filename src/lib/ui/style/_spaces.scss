@@ -1,7 +1,7 @@
 $space_xs: 0.25rem;
-$space_sm: 0.50rem;
+$space_sm: 0.5rem;
 $space_default: 0.75rem;
-$space_lg: 1.00rem;
+$space_lg: 1rem;
 $space_xl: 2rem;
 $space_xl_2: 4rem;
 $space_xl_3: 6rem;
@@ -19,29 +19,29 @@ $space_xl_4: 8rem;
 }
 
 .space-xs {
-    height: var(--space_xs);
+	height: var(--space_xs);
 }
 
 .space-sm {
-    height: var(--space_sm);
+	height: var(--space_sm);
 }
 
 .space-lg {
-    height: var(--space_lg);
+	height: var(--space_lg);
 }
 
 .space-xl {
-    height: var(--space_xl);
+	height: var(--space_xl);
 }
 
 .space-xl-2 {
-    height: var(--space_xl_2);
+	height: var(--space_xl_2);
 }
 
 .space-xl-3 {
-    height: var(--space_xl_3);
+	height: var(--space_xl_3);
 }
 
 .space-xl-4 {
-    height: var(--space_xl_4);
+	height: var(--space_xl_4);
 }

@@ -4,42 +4,42 @@
 @use 'radius';
 
 .alert {
-    display: grid; 
-    box-shadow: shadows.$box-shadow;
-    border-radius: radius.$radius_default;
-    padding: spaces.$space_default;
-    grid-template-columns: 0.9fr 0.1fr;
-    .close-area {
-        justify-self: end;
-        align-self: center;
-    }
-    .message-area {
-        justify-self: start;
-        align-self: center;
-    }
-    button {
-        color: colors.$secondary;
-        background-color: transparent;
-        border: none;
-    }
+	display: grid;
+	box-shadow: shadows.$box-shadow;
+	border-radius: radius.$radius_default;
+	padding: spaces.$space_default;
+	grid-template-columns: 0.9fr 0.1fr;
+	.close-area {
+		justify-self: end;
+		align-self: center;
+	}
+	.message-area {
+		justify-self: start;
+		align-self: center;
+	}
+	button {
+		color: colors.$secondary;
+		background-color: transparent;
+		border: none;
+	}
 }
 
 .alert-success {
-    background-color: colors.$success;    
-    border-color: colors.$border_primary;
+	background-color: colors.$success;
+	border-color: colors.$border_primary;
 }
 
 .alert-info {
-    background-color: colors.$info;    
-    border-color: colors.$border_primary;
+	background-color: colors.$info;
+	border-color: colors.$border_primary;
 }
 
 .alert-warning {
-    background-color: colors.$warning;    
-    border-color: colors.$border_primary;
+	background-color: colors.$warning;
+	border-color: colors.$border_primary;
 }
 
 .alert-danger {
-    background-color: colors.$danger;    
-    border-color: colors.$border_primary;
+	background-color: colors.$danger;
+	border-color: colors.$border_primary;
 }
