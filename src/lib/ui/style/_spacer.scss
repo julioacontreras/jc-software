@@ -1,0 +1,13 @@
+@use 'spaces';
+
+.spacer {
+    width: 100%;
+}
+
+.space-lg {
+    height: spaces.$space_lg;
+}
+
+.space-sm {
+    height: spaces.$space_sm;
+}

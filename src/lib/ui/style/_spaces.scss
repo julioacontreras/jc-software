@@ -1,70 +1,47 @@
+$space_xs: 0.25rem;
+$space_sm: 0.50rem;
+$space_default: 0.75rem;
+$space_lg: 1.00rem;
+$space_xl: 2rem;
+$space_xl_2: 4rem;
+$space_xl_3: 6rem;
+$space_xl_4: 8rem;
+
+:root {
+	--space_xs: #{$space_xs};
+	--space_sm: #{$space_sm};
+	--space_default: #{$space_default};
+	--space_lg: #{$space_lg};
+	--space_xl: #{$space_xl};
+	--space_xl_2: #{$space_xl_2};
+	--space_xl_3: #{$space_xl_3};
+	--space_xl_4: #{$space_xl_4};
+}
+
 .space-xs {
-	height: $space_xs;
+    height: var(--space_xs);
 }
 
 .space-sm {
-	height: $space_sm;
+    height: var(--space_sm);
 }
 
 .space-lg {
-	height: $space_lg;
+    height: var(--space_lg);
 }
 
 .space-xl {
-	height: $space_xl;
+    height: var(--space_xl);
 }
 
 .space-xl-2 {
-	height: $space_xl-2;
+    height: var(--space_xl_2);
 }
 
 .space-xl-3 {
-	height: $space_xl-3;
+    height: var(--space_xl_3);
 }
 
 .space-xl-4 {
-	height: $space_xl-4;
-}
-
-.width-full {
-	width: 100%;
-}
-
-.spacer {
-	width: 100%;
-}
-
-.container {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* SMARTPHONE */
-@media only screen and (max-width: 767px) {
-	.container {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-}
-
-/* TABLET */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-	.container {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 1024px) {
-	.container {
-		max-width: 900px;
-		padding-left: 3rem;
-		padding-right: 3rem;
-		min-width: 400px;
-	}
-}
-
-.app {
-	position: relative;
+    height: var(--space_xl_4);
 }

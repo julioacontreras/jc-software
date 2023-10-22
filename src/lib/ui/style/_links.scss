@@ -1,13 +1,11 @@
 a {
-	padding: 0;
-	margin: 0;
-	font-size: $font_default;
-	color: var(--link_primary);
-	text-decoration: none;
-	&:active {
-		color: var(--link_primary_active);
-	}
-	&:hover {
-		color: var(--link_primary_hover);
-	}
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    color: var(--link_primary);
+    text-decoration: none
+}
+
+a:hover {
+    color: var(--link_primary_hover);
 }

@@ -1,0 +1,39 @@
+$primary: #d9d9d9;
+$secondary: #494949;
+$ternary: #17b7f1;
+$primary_light: #494949;
+$secondary_light: #d9d9d9;
+$ternary_light: #3cabdf;
+
+$info: #3cabdf;
+$warning: #dfcf3c;    
+$danger: #df4a3c; 
+$success: #3cdf62; 
+
+$text_primary: $primary;
+$text_secondary: $secondary;
+$text_ternary: $ternary;
+$text_primary_light: $secondary;
+$text_secondary_light: $primary;
+$text_ternary_light: $ternary;
+
+$link_primary: $primary;
+$link_primary_hover: $ternary;
+$link_primary_active: $primary;
+$link_primary_visited: $ternary;
+$link_primary_light: $secondary;
+$link_primary_hover_light: $ternary;
+$link_primary_active_light: $secondary;
+$link_primary_visited_light: $secondary;
+
+$border_default: $secondary;
+$border_primary: $ternary;
+$border_secondary: $ternary;
+$border_default_light: $ternary;
+$border_primary_light: $secondary;
+$border_secondary_light: $secondary;
+
+$background_primary: #1e1e1e;
+$background_secondary: $secondary;
+$background_primary_light: #fff;
+$background_secondary_light: $secondary;

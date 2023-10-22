@@ -1,0 +1,20 @@
+@use 'spaces';
+@use 'shadows';
+@use 'colors';
+@use 'radius';
+@use 'fonts';
+
+
+button {
+    color: colors.$text_primary;
+    padding: spaces.$space_default spaces.$space_sm spaces.$space_default spaces.$space_sm;
+    font-size: fonts.$font_default;
+    &.primary {
+        background-color: colors.$primary;
+        border-radius: radius.$radius_default;
+        border-style: none;
+    }
+    &:disabled {
+        background-color: colors.$secondary !important;
+    }
+}

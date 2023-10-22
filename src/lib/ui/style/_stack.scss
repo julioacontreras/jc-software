@@ -1,0 +1,60 @@
+
+.stack {
+    display: flex
+}
+
+.stack-width-full {
+    width: 100%
+}
+
+.stack-width-fit {
+    width: fit-content
+}
+
+.stack-balanced {
+    justify-content: space-around
+}
+
+.stack-row-start {
+    justify-content: flex-start
+}
+
+.stack-row-end {
+    justify-content: flex-end
+}
+
+.stack-column-start {
+    align-items: flex-start
+}
+
+.stack-column-end {
+    align-items: flex-end
+}
+
+.stack-gap-none {
+    gap: 0
+}
+
+.stack-gap-sm {
+    gap: .75rem
+}
+
+.stack-gap-lg {
+    gap: 1rem
+}
+
+.stack-gap-xl {
+    gap: 2rem
+}
+
+.stack-gap-xl-2 {
+    gap: 4rem
+}
+
+.stack-direction-row {
+    flex-direction: row
+}
+
+.stack-direction-column {
+    flex-direction: column
+}

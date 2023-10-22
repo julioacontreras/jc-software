@@ -1,5 +1,4 @@
 <script lang="ts">
-	import './style.scss';
 	import { base } from '$app/paths';
 
 	// Adapters
@@ -40,7 +39,6 @@
 	{#each t['general.menu'] as link}
 		<a
 			href="{base}{link.href}?{langParam}&{themeParam}"
-			class="link-navbar"
 			class:active={settings.activePage === link.href}
 			on:click={updateActive(link.href)}>{link.title}</a
 		>

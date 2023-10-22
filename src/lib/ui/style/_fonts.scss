@@ -1,19 +1,6 @@
-.font-sm {
-	font-size: $font_sm;
-}
-
-.font_default {
-	font-size: $font_default;
-}
+$font_default: 1rem;
+$font_lg: 2rem;
 
 .font-lg {
-	font-size: $font_lg;
-}
-
-.font-xl {
-	font-size: $font_xl;
-}
-
-.font-xl-2 {
-	font-size: $font_xl_2;
+    font-size: $font_lg;
 }

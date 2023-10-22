@@ -1,5 +1,3 @@
-@import '../../style/constants';
-
 .text-list {
 	display: flex;
 }
@@ -17,15 +15,15 @@
 }
 
 .text-list-gap-sm {
-	gap: $space_sm;
+	gap: var(--space_sm);
 }
 
 .text-list-gap-lg {
-	gap: $space_lg;
+	gap: var(--space_lg);
 }
 
 .text-list-gap-xl {
-	gap: $space_xl;
+	gap: var(--space_xl);
 }
 
 .text-list-distribution-balanced {

@@ -36,12 +36,12 @@
 <div class="container">
 	<section class="stack stack-direction-column fade-in">
 		<section class="spacer space-xl-4" />
-		<h1>{t['general.skills']}</h1>
+		<h1 class="text-primary">{t['general.skills']}</h1>
 		<section class="spacer space-xl" />
 		<section class="grid grid-skills grid-direction-row grid-gap-xl">
 			{#each skills as skill}
 				<div>
-					<h2>{skill.title}</h2>
+					<h2 class="text-primary">{skill.title}</h2>
 					<section class="spacer space-sm" />
 					<TextList decoration="pill" gap="sm" items={skill.items} classes="list-skills" />
 					<section class="spacer space-sm" />

@@ -1,12 +1,12 @@
-@import '../lib/ui/style/constants';
+@use '../lib/ui/style/spaces';
+@use '../lib/ui/style/radius';
 
-.navbar {
-	text-transform: uppercase;
-	width: 100%;
-	padding-top: $space_lg;
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
 }
 
 a {
+	color: var(--text_primary);
 	text-transform: uppercase;
 	transition: all 200ms;
 }
@@ -27,28 +27,7 @@ a {
 .text-list-decoration-pill li {
 	list-style-type: none;
 	border-style: solid;
-	border-radius: $radius_lg;
+	border-radius: radius.$radius_lg;
 	border-color: var(--border-default);
-	padding: $space-sm $space-lg $space-sm $space-lg;
-}
-
-/* SMARTPHONE */
-@media only screen and (max-width: 767px) {
-	.navbar {
-		flex-direction: column;
-	}
-}
-
-/* TABLET */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-	.navbar {
-		flex-direction: row;
-	}
-}
-
-/* DESKTOP */
-@media only screen and (min-width: 1024px) {
-	.navbar {
-		flex-direction: row;
-	}
+	padding: spaces.$space-sm spaces.$space-lg spaces.$space-sm spaces.$space-lg;
 }

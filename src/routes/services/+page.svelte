@@ -31,9 +31,9 @@
 <div class="container">
 	<section class="stack stack-direction-column fade-in">
 		<section class="spacer space-xl-4" />
-		<h1>{t['services.title']}</h1>
+		<h1 class="text-primary">{t['services.title']}</h1>
 		<section class="spacer space-sm" />
-		<h2 class="width-sub-title">{t['services.subtitle']}</h2>
+		<h2 class="text-primary width-sub-title">{t['services.subtitle']}</h2>
 		<section class="spacer space-xl" />
 		<section class="stack stack-direction-row">
 			{#each services as service}

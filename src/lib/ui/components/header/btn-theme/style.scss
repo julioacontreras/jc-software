@@ -1,10 +1,10 @@
-@import '../../../style/constants';
-@import '../btn';
+@use '../../../style/fonts';
+@use '../btn';
 
 .btn-theme {
 	height: 44px;
 	width: 44px;
-	font-size: $font_default;
+	font-size: fonts.$font_default;
 	text-align: center;
 }
 

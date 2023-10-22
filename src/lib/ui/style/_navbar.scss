@@ -1,0 +1,31 @@
+@use 'spaces';
+
+.navbar {
+	text-transform: uppercase;
+	width: 100%;
+	padding-top: spaces.$space_lg;
+	display: flex;
+	justify-content: space-around;
+	gap: 0.5rem;
+}
+
+/* SMARTPHONE */
+@media only screen and (max-width: 767px) {
+	.navbar {
+		flex-direction: column;
+	}
+}
+
+/* TABLET */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.navbar {
+		flex-direction: row;
+	}
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+	.navbar {
+		flex-direction: row;
+	}
+}
