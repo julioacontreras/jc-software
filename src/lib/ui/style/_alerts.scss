@@ -10,9 +10,9 @@ $success: colors.$color_8;
 
 :root {
 	--info: #{$info};
-    --warning: #{$warning};
-    --success: #{$success};
-    --danger: #{$danger};
+	--warning: #{$warning};
+	--success: #{$success};
+	--danger: #{$danger};
 	--text-alert: #{colors.$color_1};
 }
 
