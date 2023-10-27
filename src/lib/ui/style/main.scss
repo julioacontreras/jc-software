@@ -1,5 +1,6 @@
 @use 'reset';
 @use 'colors';
+@use 'borders';
 @use 'inputs';
 @use 'spacer';
 @use 'buttons';
@@ -16,43 +17,5 @@
 
 body {
 	background-color: var(--background_primary);
-	font-size: fonts.$font_default;
-}
-
-:root {
-	--text_primary: #{colors.$text_primary};
-	--text_secondary: #{colors.$text_secondary};
-	--text_ternary: #{colors.$text_ternary};
-
-	--link_primary: #{colors.$link_primary};
-	--link_primary_hover: #{colors.$link_primary_hover};
-	--link_primary_active: #{colors.$link_primary_active};
-	--link_primary_visited: #{colors.$link_primary_visited};
-
-	--border_default: #{colors.$border_default};
-	--border_primary: #{colors.$border_primary};
-	--border_secondary: #{colors.$border_secondary};
-
-	--background_primary: #{colors.$background_primary};
-
-	.theme-light {
-		--text_primary: #{colors.$text_primary_light};
-		--text_secondary: #{colors.$text_secondary_light};
-		--text_ternary: #{colors.$text_ternary_light};
-
-		--link_primary: #{colors.$link_primary_light};
-		--link_primary_hover: #{colors.$link_primary_hover_light};
-		--link_primary_active: #{colors.$link_primary_active_light};
-		--link_primary_visited: #{colors.$link_primary_visited_light};
-
-		--border_default: #{colors.$border_default_light};
-		--border_primary: #{colors.$border_primary_light};
-		--border_secondary: #{colors.$border_secondary_light};
-
-		--background_primary: #{colors.$background_primary_light};
-	}
-}
-
-.text-primary {
-	color: var(--text_primary);
+	font-size: var(--font-default);
 }

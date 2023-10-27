@@ -3,6 +3,19 @@
 @use 'colors';
 @use 'radius';
 
+$info: colors.$color_5;
+$warning: colors.$color_6;
+$danger: colors.$color_7;
+$success: colors.$color_8;
+
+:root {
+	--info: #{$info};
+    --warning: #{$warning};
+    --success: #{$success};
+    --danger: #{$danger};
+	--text-alert: #{colors.$color_1};
+}
+
 .alert {
 	display: grid;
 	box-shadow: shadows.$box-shadow;
@@ -18,28 +31,32 @@
 		align-self: center;
 	}
 	button {
-		color: colors.$secondary;
+		color: var(--text-secondary);
 		background-color: transparent;
 		border: none;
 	}
 }
 
 .alert-success {
-	background-color: colors.$success;
-	border-color: colors.$border_primary;
+	color: var(--text-alert);
+	background-color: var(--success);
+	border-color: var(--border-primary);
 }
 
 .alert-info {
-	background-color: colors.$info;
-	border-color: colors.$border_primary;
+	color: var(--text-alert);
+	background-color: var(--info);
+	border-color: var(--border-primary);
 }
 
 .alert-warning {
-	background-color: colors.$warning;
-	border-color: colors.$border_primary;
+	color: var(--text-alert);
+	background-color: var(--warning);
+	border-color: var(--border-primary);
 }
 
 .alert-danger {
-	background-color: colors.$danger;
-	border-color: colors.$border_primary;
+	color: var(--text-alert);
+	background-color: var(--danger);
+	border-color: var(--border-primary);
 }

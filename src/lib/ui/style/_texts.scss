@@ -1,11 +1,34 @@
+@use 'colors';
+
+$text_primary: colors.$primary;
+$text_secondary: colors.$secondary;
+$text_ternary: colors.$ternary;
+$text_primary_light: colors.$secondary;
+$text_secondary_light: colors.$primary;
+$text_ternary_light: colors.$ternary;
+
+:root {
+	--text_primary: #{$text_primary};
+	--text_secondary: #{$text_secondary};
+	--text_ternary: #{$text_ternary};
+
+	.theme-light {
+		--text_primary: #{$text_primary_light};
+		--text_secondary: #{$text_secondary_light};
+		--text_ternary: #{$text_ternary_light};
+	}
+}
+
+.text-primary {
+	color: var(--text_primary);
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	text-transform: uppercase;
-	font-size: 1rem;
 	font-weight: 400;
 	color: var(--text_primary);
 }
@@ -14,10 +37,22 @@ h1 {
 	font-size: 2rem;
 }
 
+h2 {
+	font-size: 1.5rem;
+}
+
+h3, h4, h5, h6 {
+	font-size: 1rem;
+}
+
 .text-end {
 	text-align: end;
 }
 
 p {
 	font-size: 1rem;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }

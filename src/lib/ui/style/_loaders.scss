@@ -5,8 +5,8 @@
 	&:after {
 		content: ' ';
 		display: block;
-		border: 6px solid colors.$border_primary;
-		border-color: colors.$border_primary transparent colors.$border_primary transparent;
+		border: 6px solid var(--border-primary);
+		border-color: var(--border-primary) transparent var(--border-primary) transparent;
 		animation: loader-animated 1.2s linear infinite;
 	}
 }

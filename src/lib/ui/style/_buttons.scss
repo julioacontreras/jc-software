@@ -4,16 +4,31 @@
 @use 'radius';
 @use 'fonts';
 
+:root {
+	--btn-primary-text: #{colors.$color_1};
+	--btn-primary-bg: #{colors.$color_4};
+	--btn-disabled-text: #{colors.$color_1};
+	--btn-disabled-bg: #{colors.$color_3};
+}
+
 button {
-	color: colors.$text_primary;
+	/* space */
 	padding: spaces.$space_default spaces.$space_sm spaces.$space_default spaces.$space_sm;
+
+	/* font */
 	font-size: fonts.$font_default;
+
+	/* display */
+	border-radius: radius.$radius_default;
+	border-style: none;
+	box-shadow: shadows.$box-shadow;
+
 	&.primary {
-		background-color: colors.$primary;
-		border-radius: radius.$radius_default;
-		border-style: none;
+		color: var(--btn-primary-text);
+		background-color: var(--btn-primary-bg);
 	}
 	&:disabled {
-		background-color: colors.$secondary !important;
+		color: var(--btn-disabled-text) !important;
+		background-color: var(--btn-disabled-bg) !important;
 	}
 }

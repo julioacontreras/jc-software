@@ -1,3 +1,5 @@
+@use 'colors';
+
 a {
 	padding: 0;
 	margin: 0;
@@ -8,4 +10,27 @@ a {
 
 a:hover {
 	color: var(--link_primary_hover);
+}
+
+$link_primary: colors.$primary;
+$link_primary_hover: colors.$ternary;
+$link_primary_active: colors.$primary;
+$link_primary_visited: colors.$ternary;
+$link_primary_light: colors.$secondary;
+$link_primary_hover_light: colors.$ternary;
+$link_primary_active_light: colors.$secondary;
+$link_primary_visited_light: colors.$secondary;
+
+:root {
+	--link_primary: #{$link_primary};
+	--link_primary_hover: #{$link_primary_hover};
+	--link_primary_active: #{$link_primary_active};
+	--link_primary_visited: #{$link_primary_visited};
+
+	.theme-light {
+		--link_primary: #{$link_primary_light};
+		--link_primary_hover: #{$link_primary_hover_light};
+		--link_primary_active: #{$link_primary_active_light};
+		--link_primary_visited: #{$link_primary_visited_light};
+	}
 }

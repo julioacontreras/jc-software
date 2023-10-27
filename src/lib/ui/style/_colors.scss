@@ -1,39 +1,30 @@
-$primary: #d9d9d9;
-$secondary: #494949;
-$ternary: #17b7f1;
-$primary_light: #494949;
-$secondary_light: #d9d9d9;
-$ternary_light: #3cabdf;
+$color_1: #fff;
+$color_2: #d9d9d9;
+$color_3: #494949;
+$color_4: #17b7f1;
+$color_5: #3cabdf;
+$color_6: #c6b838;
+$color_7: #df4a3c;
+$color_8: #3cdf62;
 
-$info: #3cabdf;
-$warning: #dfcf3c;
-$danger: #df4a3c;
-$success: #3cdf62;
+$primary: $color_1;
+$secondary: $color_3;
+$ternary: $color_4;
 
-$text_primary: $primary;
-$text_secondary: $secondary;
-$text_ternary: $ternary;
-$text_primary_light: $secondary;
-$text_secondary_light: $primary;
-$text_ternary_light: $ternary;
+$primary_light: $color_3;
+$secondary_light: $color_1;
+$ternary_light: $color_4;
 
-$link_primary: $primary;
-$link_primary_hover: $ternary;
-$link_primary_active: $primary;
-$link_primary_visited: $ternary;
-$link_primary_light: $secondary;
-$link_primary_hover_light: $ternary;
-$link_primary_active_light: $secondary;
-$link_primary_visited_light: $secondary;
-
-$border_default: $secondary;
-$border_primary: $ternary;
-$border_secondary: $ternary;
-$border_default_light: $ternary;
-$border_primary_light: $secondary;
-$border_secondary_light: $secondary;
-
-$background_primary: #1e1e1e;
-$background_secondary: $secondary;
-$background_primary_light: #fff;
-$background_secondary_light: $secondary;
+:root {
+	--primary: #{$primary};
+	--secondary: #{$secondary};
+	--ternary: #{$ternary};
+	
+	--background_primary: #1e1e1e;
+	.theme-light {
+		--primary: #{$primary_light};
+		--secondary: #{$secondary_light};
+		--ternary: #{$ternary_light};
+		--background_primary: #fff;
+	}
+}

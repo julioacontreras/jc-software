@@ -1,0 +1,20 @@
+@use 'colors';
+
+$border_default: colors.$secondary;
+$border_primary: colors.$ternary;
+$border_secondary: colors.$ternary;
+$border_default_light: colors.$ternary;
+$border_primary_light: colors.$secondary;
+$border_secondary_light: colors.$secondary;
+
+:root {
+	--border_default: #{$border_default};
+	--border_primary: #{$border_primary};
+	--border_secondary: #{$border_secondary};
+
+	.theme-light {
+		--border_default: #{$border_default_light};
+		--border_primary: #{$border_primary_light};
+		--border_secondary: #{$border_secondary_light};
+	}
+}
